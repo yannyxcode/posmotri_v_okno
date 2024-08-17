@@ -45,6 +45,7 @@ ol {
 .content {
   display: flex;
   justify-content: center;
+  align-content: end;
   width: 100%;
   height: 534px;
   column-gap: 30px;
