@@ -151,6 +151,7 @@ ol {
   color: inherit;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
+  font-weight: bold;
   padding: 0px;
   cursor: pointer;
   border: 1px solid currentColor;
@@ -204,10 +205,6 @@ ol {
 .content__list::-webkit-scrollbar-track {
   background-color: #3d3b3b;
   border-radius: 2px;
-}
-
-.content__card-link:focus-visible {
-  outline: 1px solid #fff;
 }
 
 .content__list-item:not(:last-child) {
@@ -264,8 +261,6 @@ ol {
 
 .more-button {
   padding: 5px 145px;
-  margin-left: 2px;
-  margin-right: 2px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
